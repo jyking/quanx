@@ -1,0 +1,15 @@
+# 去广告
+
+# 喜马拉雅
+^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime url reject
+^https?:\/\/adse\.ximalaya\.com\/ting.*appid= url reject-img
+^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid= url reject-img
+^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid= url reject-img
+^https?:\/\/adse\.ximalaya\.com\/ting\?appid= url reject-img
+# 爱奇艺
+^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/ url reject-img
+
+# 丰巢
+^https?:\/\/ulogs\.umeng\.com url reject
+
+hostname = w*.ximalaya.com,w.ximalaya.com,adse.ximalaya.com,ulogs.umeng.com
